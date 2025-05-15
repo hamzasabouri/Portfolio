@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Vision AI",
+    "description": "VisionAI is a Flask-based web application that utilizes YOLOv8 for object detection in images, videos, and webcam streams. It also offers dynamic background replacement and image filters like grayscale and Sobel.",
+    "language": "Python, Flask, HTML, CSS, JavaScript",
+    "type": "Team",
+    "images": 8,
+    "github": "https://github.com/hamzasabouri/VisionAI"
+  },
+  {
+    "title": "Ajichri",
+    "description": "A simple e-commerce website for clothing, providing a user interface for browsing and an admin dashboard for managing users, products, and orders.",
+    "language": "PHP, MySQL",
+    "type": "Solo",
+    "images": 14,
+    "github": "https://github.com/hamzasabouri/E-commerce-website"
+  },
+  {
+    "title": "Engineer Appointment Management",
+    "description": "A web application that allows clients to schedule appointments with engineers. It includes user management, appointment booking, and interaction tracking.",
+    "language": "PHP, HTML/CSS, MySQL, XAMPP",
+    "type": "Solo",
+    "images": 8,
+    "github": "https://github.com/hamzasabouri/Plateforme-de-Gestion-de-Rendez-vous-Ingnieur-Client"
+  },
+  {
+    "title": "Cinema IDLD",
+    "description": "Cinema IDLD is an online platform for booking movie tickets. It offers browsing of current and upcoming films, city/cinema selection, seat selection by ticket type, and admin management of content. Authentication is secured via JWT.",
+    "language": "Java, Spring Boot, React",
+    "type": "Team",
+    "images": 11,
+    "github": "https://github.com/hamzasabouri/CinemaIDLD"
+  },
+  {
+    "title": "Medical Recommender",
+    "description": "An AI-based healthcare project that predicts diseases based on symptoms using a symptom-disease mapping dataset and machine learning techniques.",
+    "language": "Python",
+    "type": "Solo",
+    "images": 1,
+    "github": "https://github.com/hamzasabouri/Healthcare-Applications"
+  },
+  {
+  "title": "Portfolio",
+  "description": "An interactive portfolio built with React, Tailwind CSS, and Vite. It showcases my projects, skills, and contact information. This portfolio serves as a showcase of my work in web development and personal projects in Full Stack development and artificial intelligence.",
+  "language": "React, Tailwind CSS, Vite, JavaScript",
+  "type": "Solo",
+  "images": 6,
+  "github": "https://github.com/hamzasabouri/Portfolio"
+}
+
+  
+]
