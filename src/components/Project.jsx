@@ -29,15 +29,15 @@ const Projects = () => {
     >
       <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
 
-      <div className="max-w-6xl mx-auto">
+<div className="flex justify-center w-full">
         <Swiper
           modules={[Navigation]}
           navigation
-          spaceBetween={30}
-          slidesPerView={3}
           breakpoints={{
-            768: { slidesPerView: 3 },
-            1024: { slidesPerView: 4 },
+    0: { slidesPerView: 1 },       // Pour mobiles
+    640: { slidesPerView: 2 },     // Petites tablettes
+    1024: { slidesPerView: 3 },    // Tablettes ou petits laptops
+    1280: { slidesPerView: 4 },    // Grands écrans
           }}
           loop={true}
         >
