@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+
 
 const Contact = () => {
   const form = useRef();
@@ -12,14 +13,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_rmsrcpd',  // Remplace par ton Service ID
-        'template_53jz40o', // Remplace par ton Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        '-Kt6r_Gmtm3_bYKLL' // Remplace par ta Public Key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setSent(true);
-        setError(null); // Clear previous errors
+        setError(null);
         form.current.reset();
       })
       .catch((err) => {
@@ -36,7 +37,6 @@ const Contact = () => {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8 text-yellow-300">Contact Me</h2>
 
-        {/* Formulaire EmailJS */}
         <form
           ref={form}
           onSubmit={sendEmail}
@@ -74,6 +74,7 @@ const Contact = () => {
           )}
           {error && <p className="text-red-600 font-semibold">{error}</p>}
         </form>
+  <p className="font-semibold">📞 +212 691-088467</p>
 
         <div className="mt-8 flex justify-center gap-6 text-3xl text-gray-700">
           <a
@@ -91,7 +92,17 @@ const Contact = () => {
             className="hover:text-blue-700 transition duration-300"
           >
             <FaLinkedin />
+            
           </a>
+          <a
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=sabourihamzaa@gmail.com&su=Portfolio"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="hover:text-red-600 transition duration-300"
+      title="Envoyer un mail via Gmail"
+    >
+      <FaEnvelope />
+      </a>
         </div>
       </div>
     </section>
