@@ -65,7 +65,7 @@ const Home = () => {
         </motion.div>
 
         <motion.a
-          href="/cv.pdf"
+          href="/CV.pdf"
           download
           className="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105"
           initial={{ opacity: 0 }}
