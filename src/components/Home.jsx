@@ -55,7 +55,7 @@ const Home = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/hamza-sabouri/"
+            href="https://www.linkedin.com/in/hamzasabouri/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-200 transition duration-300"
