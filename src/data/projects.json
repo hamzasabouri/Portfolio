@@ -40,13 +40,20 @@
     "github": "https://github.com/hamzasabouri/Healthcare-Applications"
   },
   {
-  "title": "Portfolio",
-  "description": "An interactive portfolio built with React, Tailwind CSS, and Vite. It showcases my projects, skills, and contact information. This portfolio serves as a showcase of my work in web development and personal projects in Full Stack development and artificial intelligence.",
-  "language": "React, Tailwind CSS, Vite, JavaScript",
-  "type": "Solo",
-  "images": 6,
-  "github": "https://github.com/hamzasabouri/Portfolio"
-}
+    "title": "Portfolio",
+    "description": "An interactive portfolio built with React, Tailwind CSS, and Vite. It showcases my projects, skills, and contact information. This portfolio serves as a showcase of my work in web development and personal projects in Full Stack development and artificial intelligence.",
+    "language": "React, Tailwind CSS, Vite, JavaScript",
+    "type": "Solo",
+    "images": 6,
+    "github": "https://github.com/hamzasabouri/Portfolio"
+  },
+  {
+    "title": "Debt Management System",
+    "description": "A debt management system developed during an internship at Trésorerie Générale du Royaume (TGR) in Morocco. It's designed to modernize and centralize financial operations related to state debt with a microservices architecture based on Spring Cloud for the backend and React for the frontend.",
+    "language": "Java, Spring Boot, Spring Cloud, React, MySQL, PostgreSQL, JWT",
+    "type": "Solo",
+    "images": 15,
+    "github": "https://github.com/hamzasabouri/debt-management-system"
+  }
 
-  
 ]
