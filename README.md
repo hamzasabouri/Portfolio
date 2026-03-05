@@ -28,7 +28,7 @@ Ce projet est un **portfolio interactif** construit avec **React**, **Tailwind C
 ![Screenshot 5](./public/images/Portfolio/5.png)
 ![Screenshot 6](./public/images/Portfolio/6.png)
 
-
+**Voir le portfolio en ligne :** [https://portfoliosabouri.netlify.app](https://portfoliosabouri.netlify.app)
 
 ## **Technologies utilisées**
 
